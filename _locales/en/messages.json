@@ -1,0 +1,14 @@
+{
+  "errorMessage": {
+    "description": "Message shown on error",
+    "message": "Sorry, an error occurred!"
+  },
+  "loadCartMessage": {
+    "description": "Message shown when the cart is loaded",
+    "message": "Loaded cart!"
+  },
+  "saveCartMessage": {
+    "description": "Message shown when the cart is saved",
+    "message": "Saved cart!"
+  }
+}

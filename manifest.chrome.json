@@ -1,0 +1,28 @@
+{
+  "action": {
+    "default_icon": "icons/icon19.png"
+  },
+  "background": {
+    "service_worker": "src/js/background.js"
+  },
+  "default_locale": "en",
+  "description": "Copy an All The Flavors recipe to Markdown",
+  "homepage_url": "https://www.bullcityflavors.com",
+  "host_permissions": [
+    "https://www.bullcityflavors.com/*",
+    "https://bullcityflavors.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "manifest_version": 3,
+  "name": "BCF Cart Saver",
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "scripting"
+  ],
+  "version": "0.1.0"
+}
